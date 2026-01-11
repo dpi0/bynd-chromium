@@ -1,0 +1,89 @@
+{
+  "manifest_version": 3,
+  "name": "bynd",
+  "version": "1.0.0",
+  "description": "Keybinds for Chromium",
+  "permissions": ["tabs", "sessions", "activeTab", "clipboardWrite"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icons/bynd-48-48.png",
+    "96": "icons/bynd-96-96.png"
+  },
+  "commands": {
+    "prev-tab": {
+      "suggested_key": { "default": "Alt+H" },
+      "description": "Switch to previous tab"
+    },
+    "next-tab": {
+      "suggested_key": { "default": "Alt+L" },
+      "description": "Switch to next tab"
+    },
+    "new-tab": {
+      "suggested_key": { "default": "Alt+U" },
+      "description": "Open a new tab"
+    },
+    "close-tab": {
+      "description": "Close current tab"
+    },
+    "reload-page": {
+      "suggested_key": { "default": "Alt+B" },
+      "description": "Reload current page"
+    },
+    "hard-reload-page": {
+      "description": "Reload page bypassing cache"
+    },
+    "reopen-tab": {
+      "description": "Reopen last closed tab"
+    },
+    "duplicate-tab": {
+      "description": "Duplicate current tab"
+    },
+    "pin-tab": {
+      "description": "Toggle pin on current tab"
+    },
+    "open-in-new-window": {
+      "description": "Open current tab in new window"
+    },
+    "move-tab-left": {
+      "description": "Move current tab left"
+    },
+    "move-tab-right": {
+      "description": "Move current tab right"
+    },
+    "toggle-mute": {
+      "description": "Toggle mute on current tab"
+    },
+    "switch-to-last-tab": {
+      "description": "Switch to previously active tab"
+    },
+    "scroll-up": {
+      "description": "Scroll page up slightly"
+    },
+    "scroll-to-top": {
+      "description": "Scroll to top of page"
+    },
+    "scroll-down": {
+      "description": "Scroll page down slightly"
+    },
+    "scroll-to-bottom": {
+      "description": "Scroll to bottom of page"
+    },
+    "page-down": {
+      "description": "Page down"
+    },
+    "page-up": {
+      "description": "Page up"
+    },
+    "go-back": {
+      "description": "Go back in history"
+    },
+    "go-forward": {
+      "description": "Go forward in history"
+    },
+    "copy-url": {
+      "description": "Copy current tab URL to clipboard"
+    }
+  }
+}
