@@ -11,13 +11,23 @@
 
 <h4>Keybinds for Chromium</h4>
 
-<a href="https://chromewebstore.google.com/detail/TBD">
+<a href="https://github.com/dpi0/bynd-chromium/releases/latest">
   <img src="https://labels.tahoe.be/chrome_download_dark.svg" alt="Get it on Chromium" width="120">
 </a>
 
 </p>
 
 </div>
+
+To install on chromium based browsers
+
+1. Click the above "Download for Chrome" button and head to the latest release
+2. Download the "Source code (zip)" which will be a zip file like `bynd-chromium-1.0.0.zip`
+3. Extract the zip file
+4. On `chrome://extensions`, Toggle on `Developer Mode`
+5. Hit `Load unpacked` and select this extracted directory.
+
+The term `chrome://` will change based on the chromium variant. Like Brave Browser uses `brave://`, Helium Browser uses `helium://` etc.
 
 ## Default Keybinds
 
@@ -74,4 +84,4 @@
 
 ## Configuration
 
-Manage keybinds via Chromium's native `chromium://extensions/shortcuts` page.
+Manage keybinds via Chromium's native `chrome://extensions/shortcuts` page.
